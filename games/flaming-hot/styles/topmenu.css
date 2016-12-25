@@ -1,0 +1,7 @@
+#top-menu-center > div > a:link, #top-menu-center > div > a:visited {
+	background-color: green !important;
+}
+
+#top-menu-center > div > a:hover {
+	filter: brightness(-30%) !important;  
+}

@@ -1,0 +1,97 @@
+#top-menu-center {
+	width: 1300px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1000;
+}
+
+#top-menu-center > ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	clear: both;
+}
+
+#top-menu-center > ul > li {
+	float: right;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#top-menu-center > ul > li > a {
+	text-decoration: none;
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	margin: 10px;
+}
+
+#top-menu-center > ul > li:nth-child(1) > a {
+	background-image: url(../imgs/makefullscreen.png);
+}
+
+#top-menu-center > ul > li:nth-child(1) > a.checked {
+	background-image: url(../imgs/makewindow.png);
+}
+
+#top-menu-center > ul > li:nth-child(2) > a {
+	background-image: url(../imgs/sound_on.png);
+}
+
+#top-menu-center > ul > li:nth-child(2) > a.checked {
+	background-image: url(../imgs/sound_off.png);
+}
+
+#top-menu-center > ul > li:nth-child(3) > a {
+	background-image: url(../imgs/music_on.png);
+}
+
+#top-menu-center > ul > li:nth-child(3) > a.checked {
+	background-image: url(../imgs/music_off.png);
+}
+
+#top-menu-center > div > a:link, #top-menu-center > div > a:visited, #top-menu-center > div > a:hover {
+	float: right;
+	min-width: 100px;
+	min-height: 25px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgba(128, 128, 128, 0.5);
+	border: 1px solid rgba(128, 128, 128, 0.5);
+	cursor: pointer;
+	padding-top: 5px;
+	text-shadow: 0 0 2px black;
+}
+
+#top-menu-center > div > a:hover {
+	color: yellow;
+	background-color: rgba(128, 128, 128, 0.8);
+	border: 1px solid rgba(128, 128, 128, 0.8);
+}
+
+#top-menu-center > div:first-child {
+	float: right;
+	margin: 0;
+	padding-left: 0;
+}
+
+#top-menu-center > div:nth-child(2) {
+	float: left;
+	margin: 0;
+	padding-left: 0;
+}
+
+#top-menu-spin-id {
+	color: white;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: -96px;
+	font-size: 18px;
+}

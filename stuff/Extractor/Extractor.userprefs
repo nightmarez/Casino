@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Extractor/Extractor.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Extractor/Program.cs">
+    <Files>
+      <File FileName="Extractor/Program.cs" Line="43" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <FunctionBreakpoint line="60" column="1" function="hex = &quot;89&quot;" language="C#" />
+      <FunctionBreakpoint line="53" column="1" function="state == State.Fill &amp;&amp; hex == &quot;50&quot;" language="C#" />
+      <FunctionBreakpoint line="53" column="1" function="state == State.Fill &amp;&amp; hex == &quot;50&quot;" language="C#" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

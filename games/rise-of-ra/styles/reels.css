@@ -1,0 +1,18 @@
+.reel {
+    margin-top: -39px !important;
+    margin-left: 12px !important;
+}
+
+#reels-outer {
+    margin-top: 194px !important;
+}
+
+#reel-0 {
+	margin-left: -1px !important;
+}
+
+.reel > canvas {
+	border: 5px solid gold;
+    box-sizing: border-box;
+    border-radius: 15px;
+}

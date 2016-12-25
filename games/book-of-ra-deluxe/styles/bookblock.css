@@ -1,0 +1,79 @@
+#bookblock-outer {
+	display: none;
+	position: absolute;
+    width: 800px;
+    height: 480px;
+    z-index: 2000;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+#bookblock {
+	position: absolute;
+    width: 800px;
+    height: 480px;
+    z-index: 2001;
+    left: -50%;
+    top: -50%;
+}
+
+#bookblock-content {
+	width: 800px;
+    height: 480px;
+    background-image: url('../imgs/block.png');
+}
+
+#book-outer {
+	position: absolute;
+    width: 455px;
+    height: 287px;
+    z-index: 2002;
+    left: 50%;
+    top: 50%;
+}
+
+#book {
+	position: absolute;
+    width: 455px;
+    height: 287px;
+    z-index: 2003;
+    left: -50%;
+    top: -50%;
+}
+
+#book-content {
+	width: 455px;
+    height: 287px;
+    background-image: url('../imgs/book.png');
+    position: relative;
+}
+
+#bookblock-content > span {
+    font-weight: bold;
+    color: yellow;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Tahoma;
+    text-shadow: -1px -1px 2px black, -1px 1px 2px black, 1px -1px 2px black, 1px 1px 2px black;
+}
+
+#bookblock-content > span:first-child {
+	padding-top: 74px;
+}
+
+#bookblock-content > span:last-child {
+	padding-top: 236px;
+}
+
+#book-content-symbol {
+	position: absolute;
+    width: 126px;
+    height: 135px;
+    left: 87px;
+    top: 75px;
+    background-image: url('../imgs/selectsymbol.jpg');
+}

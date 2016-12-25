@@ -1,0 +1,32 @@
+.reel {
+	width: 222px !important;
+	height: 666px !important;
+    margin-top: 0px !important;
+    margin-left: 7px !important;
+}
+
+#reel-0 {
+	margin-left: 8px !important;
+}
+
+.reel > canvas {
+	width: 222px !important;
+	height: 666px !important;
+}
+
+.symbol {
+	width: 222px !important;
+	height: 222px !important;
+}
+
+.symbol-video {
+	width: 222px !important;
+	height: 222px !important;
+}
+
+.line-indicator {
+	visibility: hidden;
+	padding-top: 3px !important;
+	height: 20px !important;
+	font-size: 18px !important;
+}

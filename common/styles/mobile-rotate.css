@@ -1,0 +1,41 @@
+#mobile-rotate-background {
+	position: fixed;
+	z-index: 2900;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: none;
+	touch-action: none;
+}
+
+#mobile-rotate-outer {
+	width: 336px;
+	height: 688px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	touch-action: none;
+}
+
+#mobile-rotate-fixed {
+	width: 336px;
+	height: 688px;
+	position: absolute;
+	left: -50%;
+	top: -50%;
+	background-image: url('../imgs/iphone.png');
+	transform: rotate(-90deg);
+    opacity: 0.4;
+    touch-action: none;
+}
+
+#mobile-rotate {
+	width: 336px;
+	height: 688px;
+	position: absolute;
+	left: -50%;
+	top: -50%;
+	background-image: url('../imgs/iphone.png');
+	transform: rotate(0deg);
+	touch-action: none;
+}

@@ -1,0 +1,55 @@
+#paytable-outer {
+	position: absolute;
+	width: 1299px;
+	height: 100px;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+	pointer-events: none;
+}
+
+#paytable {
+	position: absolute;
+	width: 1299px;
+	height: 100px;
+	z-index: 1000;
+	left: -50%;
+	top: calc(-50% - 350px);
+	pointer-events: none;
+}
+
+#paytable-content {
+	width: 1299px;
+	height: 746px;
+	background-repeat: no-repeat;
+	display: none;
+	pointer-events: none;
+}
+
+#paytable-content {
+	position: relative;
+}
+
+#paytable-content > div {
+	width: 160px;
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#paytable-content > div > span {
+	font-size: 38px;
+	font-weight: bold;
+	color: yellow;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#paytable-content > div#sevens > span {
+	font-size: 42px;
+	margin-top: 7px;
+	margin-bottom: 22px;
+}

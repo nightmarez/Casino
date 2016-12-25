@@ -1,0 +1,23 @@
+ul#searchPluginList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    border: 1px solid #cccccc;
+}
+
+ul#searchPluginList > li {
+    margin: 0;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+ul#searchPluginList > li.searchPluginListSelected {
+    background-color: #e7e7e7;
+}
+
+ul#searchPluginList > li:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+window.chatServer = 'ws://casino.nightmarez.net:1337';

@@ -1,0 +1,271 @@
+body {
+	font-family: 'Exo 2';
+	font-weight: normal;
+	color: white;
+	background-color: black;
+}
+
+div#top-gradient {
+	background-image: linear-gradient(gray, black);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+#main-menu-outer {
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+}
+
+ul#main-menu {
+	display: block;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+ul#main-menu > li {
+	background-color: black;
+	float: left;
+	width: 208px;
+	white-space: nowrap;
+}
+
+ul#main-menu > li > a:link, ul#main-menu > li > a:hover, ul#main-menu > li > a:visited {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 40px 20px 40px;
+	border: 1px solid white;
+	width: calc(100% - 80px);
+    display: block;
+    text-align: center;
+    background-position: 0 25px;
+    background-repeat: no-repeat;
+}
+
+ul#main-menu > li:nth-child(1) > a {
+	background-image: radial-gradient(rgb(128, 128, 128) 15%, black 80%);
+	border-top: none;
+	margin-top: 1px;
+	border-right: none;
+}
+
+ul#main-menu > li:nth-child(2) > a {
+	background-image: radial-gradient(rgb(255, 255, 0) 15%, black 80%);
+	border-right: none;
+}
+
+ul#main-menu > li:nth-child(3) > a {
+	background-image: radial-gradient(rgb(255, 0, 0) 15%, black 80%);
+	border-right: none;
+}
+
+ul#main-menu > li:nth-child(4) > a {
+	background-image: radial-gradient(rgb(255, 0, 255) 15%, black 80%);
+	border-right: none;
+}
+
+ul#main-menu > li:nth-child(5) > a {
+	background-image: radial-gradient(rgb(0, 255, 0) 15%, black 80%);
+	border-right: none;
+}
+
+ul#main-menu > li:nth-child(6) > a {
+	background-image: radial-gradient(rgb(0, 0, 255) 15%, black 80%);
+}
+
+#main-content {
+	width: 1304px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+a:link.game-icon, a:hover.game-icon, a:visited.game-icon {
+	width: 306px;
+	height: 182px;
+	margin: 10px;
+	float: left;
+	text-decoration: none;
+	position: relative;
+}
+
+div.game-icon-lock {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	background-image: url('../imgs/lock.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 64px;
+	height: 64px;
+}
+
+a.game-icon > span {
+	font-size: 18px;
+	color: lightblue;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer#main-footer {
+	display: block;
+	position: relative;
+	width: 100%;
+    height: 60px;
+    margin-top: 62px;
+}
+
+#footer-gradient {
+	background-image: linear-gradient(#333, black);
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+    height: 40px;
+}
+
+#footer-credit {
+	float: left;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+#footer-credit > span {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	display: block;
+	width: 100%;
+}
+
+#footer-credit > h2 {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	color: gray;
+	margin-top: 5px;
+}
+
+#footer-credit > h1 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+
+#footer-denominator {
+	position: absolute;
+	left: 10px;
+	bottom: -130px;
+}
+
+#footer-denominator > span {
+	font-size: 18px;
+	text-align: center;
+	color: gold;
+	display: block;
+	width: 100%;
+	opacity: 0.3;
+}
+
+@media (-webkit-min-device-pixel-ratio:0) {
+	#footer-credit > span {
+		background: linear-gradient(white, #555);
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+
+	#footer-credit > h1 {
+		background: linear-gradient(white, #555);
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+}
+
+#select-title {
+	float: left;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	width: 100%;
+	text-transform: uppercase;
+	margin-top: -70px;
+}
+
+@media (-webkit-min-device-pixel-ratio:0) {
+	#select-title {
+		background: linear-gradient(white, #555);
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.page > div {
+	pointer-events: none;
+}
+
+.page > div > a {
+	pointer-events: all;
+}
+
+.page > div:not(.hidden):before {
+	display: block;
+	width: 40px;
+	height: 70px;
+	background-color: #444;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	content: '<';
+	float: left;
+	cursor: pointer;
+	color: white;
+	margin-left: -100px;
+	margin-top: 240px;
+
+	pointer-events: all;
+}
+
+.page > div:not(.hidden):after {
+	display: block;
+	width: 40px;
+	height: 70px;
+	background-color: #444;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	content: '>';
+	float: right;
+	cursor: pointer;
+	color: white;
+	margin-right: -100px;
+	margin-top: -165px;
+
+	pointer-events: all;
+}
+
+.grayscale { 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
+}

@@ -1,0 +1,14 @@
+#gamble-content {
+	width: 1232px !important;
+	height: 708px !important;
+	background-image: url('../imgs/gamble.jpg') !important;
+	border: none !important;
+}
+
+#big-card {
+	border-radius: 5px !important;
+}
+
+#big-card-front {
+	border-radius: 5px !important;
+}

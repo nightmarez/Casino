@@ -1,0 +1,26 @@
+#preloader-background {
+	position: fixed;
+	z-index: 3000;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	touch-action: none;
+}
+
+#preloader-outer {
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	touch-action: none;
+}
+
+#preloader {
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: -50%;
+	top: -50%;
+	touch-action: none;
+}

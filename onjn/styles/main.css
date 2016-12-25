@@ -1,0 +1,203 @@
+body {
+	font-family: 'Exo 2';
+	font-weight: normal;
+	color: white;
+	background-color: #124912;
+}
+
+table {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #02b7db;
+	border-collapse: collapse;
+}
+
+td {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #02b7db;
+	padding: 5px;
+}
+
+th {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #02b7db;
+	padding: 5px;
+}
+
+input[type=text], input[type=password] {
+	border: 1px solid black;
+}
+
+a:link, a:hover, a:visited {
+	color: #ffd700;
+}
+
+#modal-window-outer {
+	width: 800px;
+	height: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+#modal-window {
+	width: 800px;
+	height: 380px;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	background-color: white;
+
+	border-top-color: #f5f5f5;
+	border-top-width: 60px;
+	border-top-style: solid;
+
+	border-bottom-color: #f5f5f5;
+	border-bottom-width: 60px;
+	border-bottom-style: solid;
+}
+
+#modal-window-header {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: black;
+	margin: 30px 0 20px 0;
+	font-weight: bold;
+}
+
+#button-login:hover {
+	background: linear-gradient(#33d3d4, #37c6cb);
+}
+
+#button-logout {
+	width: 100%;
+	box-sizing: border-box;
+	background: linear-gradient(#2abcc1, #2cb3b9);
+	background-clip: padding-box;
+    background-origin: padding-box;
+    color: #fff;
+    box-shadow: inset -1px -1px 0 0 rgba(0,0,0,0.25),1px 1px 2px 0 rgba(0,0,0,0.2);
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
+    border: 0;
+    border-radius: .25em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 0;
+    outline: 0;
+    padding: .65em 1em .75em;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 18px;
+}
+
+#button-logout:hover {
+	background: linear-gradient(#33d3d4, #37c6cb);
+}
+
+#button-index {
+	width: 100%;
+	box-sizing: border-box;
+	background: linear-gradient(#2abcc1, #2cb3b9);
+	background-clip: padding-box;
+    background-origin: padding-box;
+    color: #fff;
+    box-shadow: inset -1px -1px 0 0 rgba(0,0,0,0.25),1px 1px 2px 0 rgba(0,0,0,0.2);
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
+    border: 0;
+    border-radius: .25em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 0;
+    outline: 0;
+    padding: .65em 1em .75em;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 18px;
+}
+
+#button-index:hover {
+	background: linear-gradient(#33d3d4, #37c6cb);
+}
+
+#login-footer {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#login-footer > a, #login-footer > a:hover, #login-footer > a:visited {
+	color: #29c2c4;
+}
+
+#recover-link > a, #recover-link > a:hover, #recover-link > a:visited {
+	color: #29c2c4;
+}
+
+#login-input-outer.login-input-outer-focus:before {
+	content: '+';
+    color: black;
+    margin-left: -17px;
+    padding-right: 6px;
+    font-size: 20px;
+}
+
+form#login-form input[type=text], form#login-form input[type=password] {
+    z-index: 2;
+    position: relative;
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: #e5e5e5 solid 1px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+form#login-form table {
+    border: none;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 53px;
+    margin-bottom: 95px;
+}
+
+#button-login {
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(#2abcc1, #2cb3b9);
+    background-clip: padding-box;
+    background-origin: padding-box;
+    color: #fff;
+    box-shadow: inset -1px -1px 0 0 rgba(0,0,0,0.25),1px 1px 2px 0 rgba(0,0,0,0.2);
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
+    border: 0;
+    border-radius: .25em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 0;
+    outline: 0;
+    padding: .65em 1em .75em;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 18px;
+}
+
+.admin-content {
+    margin: 10px;
+}

@@ -1,0 +1,35 @@
+#freegamedialog-outer {
+	display: none;
+	position: absolute;
+    width: 544px;
+    height: 512px;
+    z-index: 2000;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+#freegamedialog {
+	position: absolute;
+    width: 544px;
+    height: 512px;
+    z-index: 2001;
+    left: -50%;
+    top: -50%;
+}
+
+#freegamedialog-content {
+	width: 544px;
+    height: 250px;
+    background-image: url('../imgs/dialogbox.png');
+    padding-top: calc(50% - 50px);
+}
+
+#freegamedialog-content > span {
+    color: #FF1493;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.5), 2px -2px 2px rgba(0, 0, 0, 0.5), -2px 2px 2px rgba(0, 0, 0, 0.5), 2px 2px 2px rgba(0, 0, 0, 0.5);
+}

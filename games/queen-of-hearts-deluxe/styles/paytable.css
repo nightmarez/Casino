@@ -1,0 +1,20 @@
+#paytable-content {
+	background-image: url('../imgs/paytable.png');
+}
+
+#paytable-content > div > div > span:first-child {
+	font-size: 28px;
+	font-weight: bold;
+	color: yellow;
+	margin-top: 1px;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+#paytable-content > div > div > span:last-child {
+	font-size: 28px;
+	font-weight: bold;
+	color: yellow;
+	margin-top: 1px;
+	margin-bottom: 0;
+}

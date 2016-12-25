@@ -1,0 +1,14 @@
+#paytable-content {
+	background-image: url('../imgs/paytable.png');
+	width: 1232px !important;
+	height: 685px !important;
+	margin-left: 34px;
+    margin-top: 21px;
+}
+
+#paytable-content > div > span {
+	font-size: 24px !important;
+	font-weight: bold;
+	color: yellow;
+	margin-bottom: 5px !important;
+}

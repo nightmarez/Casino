@@ -1,0 +1,30 @@
+.reel {
+	width: 222px !important;
+	height: 666px !important;
+    margin-top: 5px !important;
+    margin-left: 8px !important;
+}
+
+#reel-0 {
+	margin-left: 8px !important;
+}
+
+.reel > canvas {
+	width: 222px !important;
+	height: 666px !important;
+}
+
+.symbol {
+	width: 222px !important;
+	height: 222px !important;
+}
+
+.symbol-video {
+	width: 222px !important;
+	height: 222px !important;
+}
+
+.line-indicator {
+	width: 60px;
+	padding-top: 5px !important;
+}

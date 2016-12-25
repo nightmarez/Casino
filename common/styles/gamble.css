@@ -1,0 +1,165 @@
+#gamble-outer {
+	position: absolute;
+	width: 1299px;
+	height: 100px;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+}
+
+#gamble {
+	position: absolute;
+	width: 1299px;
+	height: 100px;
+	z-index: 1000;
+	left: -50%;
+	top: calc(-50% - 351px);
+}
+
+#gamble-content {
+	width: 1299px;
+	height: 700px;
+	background-color: #6a0868;
+	background: linear-gradient(top, #340234 0%, #6a0868 50%, #340234 100%);
+	background-image: linear-gradient(to top, #340234, #6a0868, #340234);
+	background: linear-gradient(to bottom, #340234 0%, #6a0868 50%, #340234 100%);
+	border: 4px solid darkred;
+	border-top: none;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	display: none;
+}
+
+#gamble-content > div:first-child > div {
+	width: calc(50% - 40px);
+	float: left;
+	margin: 20px;
+}
+
+#gamble-content > div:first-child > div > span:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 30px;
+}
+
+#gamble-content > div:first-child > div > span:last-child {
+	font-size: 28px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+}
+
+#gamble-content > div:nth-child(2) > div {
+	width: calc(50% - 40px);
+	float: left;
+	margin: 40px;
+}
+
+#gamble-content > div:nth-child(2) > div:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	padding-right: 30px;
+	width: calc(50% - 150px);
+	padding-top: 33px;
+}
+
+.card {
+	width: 70px;
+	height: 99px;
+	background-image: url(../imgs/card-red.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left: 10px;
+}
+
+.card:nth-child(7), .card:nth-child(8), .card:nth-child(9) {
+	display: none;
+}
+
+#gamble-content > div:nth-child(4) {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+	float: left;
+}
+
+#big-red-button {
+	background-image: url(../imgs/gamblebutton_r.png);
+	width: 350px;
+	height: 142px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: red;
+	float: left;
+	background-position: 0 -239px;
+	padding-top: 97px;
+	cursor: pointer;
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+#big-red-button:hover {
+	background-position: 0 -717px;
+}
+
+#big-card-outer {
+    width: 211px;
+    height: 298px;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+
+#big-card {
+	width: 211px;
+	height: 298px;
+	position: absolute;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+}
+
+#big-card-front {
+	width: 211px;
+	height: 298px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	background-size: contain;
+}
+
+#big-black-button {
+	background-image: url(../imgs/gamblebutton_b.png);
+	width: 350px;
+	height: 142px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	float: right;
+	background-position: 0 -239px;
+	padding-top: 97px;
+	cursor: pointer;
+	margin-right: 110px;
+	margin-top: 30px;
+}
+
+#big-black-button:hover {
+	background-position: 0 -717px;
+}

@@ -1,0 +1,25 @@
+#reel-fore-outer {
+	visibility: hidden;
+}
+
+#lineMinus, #linesCountField, #linePlus, #betField {
+	display: none;
+}
+
+#betLineMinus {
+	margin-left: 140px;
+}
+
+#infoback-small > span:first-child, #infoback-small > span:last-child {
+	display: none;
+}
+
+#infoback-small > span:nth-child(2) {
+	content: 'Bet';
+	width: 100%;
+}
+
+#infoback-small {
+	width: 200px;
+    margin-left: 140px;
+}

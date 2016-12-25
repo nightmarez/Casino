@@ -1,0 +1,49 @@
+.rules-outer {
+    display: none;
+    position: absolute;
+    width: 1232px;
+    height: 708px;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+.rules {
+    position: absolute;
+    width: 1232px;
+    height: 708px;
+    z-index: 1000;
+    left: -50%;
+    top: -50%;
+    pointer-events: none;
+}
+
+.rules-content {
+    position: relative;
+    width: calc(100% - 200px);
+    height: 708px;
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url('../imgs/border.png') !important;
+    pointer-events: none;
+    padding: 50px 100px 50px 100px;
+}
+
+.rules-content > h1 {
+    font-size: 48px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+
+.rules-content > span {
+    margin-top: 100px;
+    font-size: 35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}

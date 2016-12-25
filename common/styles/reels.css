@@ -1,0 +1,87 @@
+#reels-outer {
+	width: 1214px;
+	height: 680px;
+	margin: 0 auto;
+	margin-top: 136px;
+}
+
+.reel {
+	float: left;
+	width: 222px;
+	height: 698px;
+	margin: 5px 14px 5px 8px;
+	position: relative;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.reel > canvas {
+	width: 222px;
+	height: 666px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.reel:last-child {
+	margin-right: 0;
+}
+
+.symbol {
+	width: 222px;
+	height: 222px;
+	background-repeat: no-repeat;
+	position: absolute;
+	will-change: transform;
+	will-change: top;
+	pointer-events: none;
+}
+
+.symbol {
+	background-size: cover;
+	pointer-events: none;
+}
+
+.symbol-video {
+	width: 222px;
+	height: 222px;
+	border: none;
+	outline: none;
+	position: absolute;
+	pointer-events: none;
+}
+
+.symbol-video > div {
+	border: none;
+	outline: none;
+}
+
+#reel-fore-outer {
+	width: 1300px;
+    height: 677px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+}
+
+#reel-fore {
+    width: 1300px;
+    height: 2000px;
+    position: absolute;
+    left: -50%;
+    top: -1000px;
+    pointer-events: none;
+}
+
+.line-indicator {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+	width: 50px;
+	height: 35px;
+	pointer-events: none;
+}

@@ -1,0 +1,51 @@
+#gamble-outer {
+	width: 1232px !important;
+	height: 708px !important;
+	top: 50% !important;
+	left: 50% !important;
+	pointer-events: none !important;
+}
+
+#gamble {
+	width: 1232px;
+	height: 708px;
+	top: -50% !important;
+	left: -50% !important;
+	pointer-events: none !important;
+}
+
+#gamble-content {
+	width: 1232px !important;
+	height: 708px !important;
+	background-image: url('../imgs/gamble.jpg') !important;
+	border: none !important;
+	margin-top: -30px !important;
+	pointer-events: all !important;
+}
+
+#gamble-content > div > div > span:first-child {
+	color: white;
+	text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
+}
+
+#gamble-content > div:nth-child(2) > div:first-child {
+	color: white;
+	text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
+}
+
+#gamble-content > div:last-child {
+	color: white;
+	text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
+}
+
+#big-card-outer {
+	margin-left: 50px !important;
+}
+
+#big-card {
+	border-radius: 5px !important;
+}
+
+#big-card-front {
+	border-radius: 5px !important;
+}

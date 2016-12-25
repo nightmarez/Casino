@@ -1,0 +1,17 @@
+#admin-content {
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+table tr:nth-child(2n) {
+	background-color: #fcfcfc;
+}
